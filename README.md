@@ -2,6 +2,12 @@
 
 原生网页开发模板
 
+## install web
+
+```install
+npm install
+```
+
 ## run web
 
 ```run
