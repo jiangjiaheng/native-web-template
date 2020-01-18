@@ -2,9 +2,9 @@
     "name": "native-web-template",
     "version": "1.0.0",
     "description": "原生网页开发模板",
-    "main": "web_server.js",
+    "main": "bin/www.js",
     "scripts": {
-        "server": "node web_server.js"
+        "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js"
     },
     "repository": {
         "type": "git",
@@ -22,6 +22,8 @@
     },
     "homepage": "https://github.com/jiangjiaheng/native-web-template#readme",
     "dependencies": {
-        "jshint": "^2.11.0-rc1"
+        "cross-env": "^6.0.3",
+        "jshint": "^2.11.0-rc1",
+        "nodemon": "^2.0.2"
     }
 }
